@@ -20,7 +20,7 @@ function Home2() {
               <br />
               <br />I have a great understanding in
               <i>
-                <b className="purple"> MERN </b>
+                <b className="purple"> MERN and QA Methodologies </b>
               </i>
               <br />
               <br />
