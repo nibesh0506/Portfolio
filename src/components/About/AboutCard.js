@@ -11,7 +11,7 @@ function AboutCard() {
             Hi Everyone, I am <span className="purple">Nibesh Upadhyaya </span>
             from <span className="purple"> Kathmandu, Nepal.</span>
             <br />
-            I am currently employed as a Quality Assurance Engineer Intern at Swift Technology Pvt. Ltd.
+            Worked as a Quality Assurance Engineer Intern at Swift Technology Pvt. Ltd and Avoloft Techologies Pvt. Ltd.
             <br />
             I have completed Bachelor's in Information Management from Shanker Dev Campus
             <br />
