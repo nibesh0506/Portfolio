@@ -12,40 +12,49 @@ function Home2() {
         <Row>
           <Col md={8} className="home-about-description">
             <h1 style={{ fontSize: "2.6em" }}>
-              LET ME <span className="purple"> INTRODUCE </span> MYSELF
+              ABOUT <span className="purple"> ME </span>
             </h1>
+
             <p className="home-about-body">
-              I fell in love with programming and I have at least learnt
-              something, I think… 🤷‍♂️
-              <br />
-              <br />I have a great understanding in
-              <i>
-                <b className="purple"> MERN and QA Methodologies </b>
-              </i>
+              Hi! I'm a passionate
+              <b className="purple"> Junior QA Engineer </b>
+              focused on ensuring software quality, reliability, and smooth user experiences.
               <br />
               <br />
-              My field of Interest's testing a &nbsp;
+              I specialize in
               <i>
                 <b className="purple">
-                  Web Based Application and Mobile Based Application{" "}
+                  {" "}Manual Testing, Functional Testing, Regression Testing, API Testing,
+                  and Bug Reporting
                 </b>
               </i>
+              .
               <br />
               <br />
-              Whenever possible, I also apply my passion for developing products
-              with <b className="purple">Node.js</b> and
+              My interest lies in testing and improving
               <i>
                 <b className="purple">
-                  {" "}
-                  Modern Javascript Library and Frameworks
+                  {" "}Web Applications, Mobile Applications, and Digital Payment Systems
                 </b>
               </i>
-              &nbsp; like
+              , ensuring they meet high-quality standards before release.
+              <br />
+              <br />
+              Currently, I am working at
+              <b className="purple"> Namaste Pay</b>, where I collaborate with developers,
+              product managers, and designers to deliver reliable and user-friendly products.
+              <br />
+              <br />
+              I am continuously learning and improving my skills in
               <i>
-                <b className="purple"> React.js</b>
-              </i>
+                <b className="purple">
+                  {" "}Test Automation, API Testing, Performance Testing, and QA Best Practices
+                </b>
+              </i>{" "}
+              to grow as a professional QA Engineer.
             </p>
           </Col>
+
           <Col md={4} className="myAvtar">
             <Tilt>
               <img
@@ -57,33 +66,37 @@ function Home2() {
             </Tilt>
           </Col>
         </Row>
+
         <Row>
           <Col md={12} className="home-about-social">
             <h1>FIND ME ON</h1>
             <p>
-              Feel free to <span className="purple">connect </span>with me
+              Feel free to <span className="purple">connect</span> with me
             </p>
+
             <ul className="home-about-social-links">
               <li className="social-icons">
                 <a
                   href="https://github.com/nibesh0506"
                   target="_blank"
                   rel="noreferrer"
-                  className="icon-colour  home-social-icons"
+                  className="icon-colour home-social-icons"
                 >
                   <AiFillGithub />
                 </a>
               </li>
+
               <li className="social-icons">
                 <a
                   href="https://www.linkedin.com/in/nibesh-upadhyaya/"
                   target="_blank"
                   rel="noreferrer"
-                  className="icon-colour  home-social-icons"
+                  className="icon-colour home-social-icons"
                 >
                   <FaLinkedinIn />
                 </a>
               </li>
+
               <li className="social-icons">
                 <a
                   href="https://www.instagram.com/n.i.b.e.s.h"
@@ -101,4 +114,5 @@ function Home2() {
     </Container>
   );
 }
+
 export default Home2;
